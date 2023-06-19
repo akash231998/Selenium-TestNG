@@ -1,0 +1,24 @@
+<suite name="TestNG Suite">
+    <test name="LogIn">
+        <classes>
+            <class name="TestNG.orageHRM">
+                <methods>
+                    <include name="ALaunchApp"/>
+                    <include name="BEnterLoginDetails"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="MyInfo">
+        <classes>
+            <class name="TestNG.orageHRM">
+                <methods>
+                    <include name="ALaunchApp"/>
+                    <include name="BEnterLoginDetails"/>
+                    <include name="CnavigateToMyInfo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
